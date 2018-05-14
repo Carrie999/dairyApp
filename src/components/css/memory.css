@@ -1,0 +1,138 @@
+.wraper-memory{
+    width:100%;
+    height:100%;
+    background-color:#f9f5e9;
+    padding:0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+.content-memory{
+    position: relative;
+    padding-top: 2rem;
+    box-sizing: border-box;
+    background-color:#fefef4;
+    width: 85%;
+    height:75%;
+    margin: 0 auto;
+    margin-top:2rem;
+    border-radius: 0.5rem;
+}
+.content-memory-title{
+    font-size: 4.5rem;
+    color:#7c878b;
+}
+.content-memory-date{
+    font-size: 1rem;
+    color:#7c878b;
+    writing-mode: vertical-lr;
+    letter-spacing:-0.3rem;
+}
+.wraper-meomory{
+    position: relative;
+    left:-5rem;
+    top:2rem;
+    text-align: right;
+    border-right:1px solid #dcdadd;
+    border-bottom:1px solid #dcdadd;
+    /* border:1px solid #dcdadd; */
+    display: inline-block;
+    width: 7rem;
+    height: 10rem;
+    overflow: hidden;
+}
+.content-memory-title.one{
+    position: relative;
+    right:-1rem;
+    bottom:-1rem;
+}
+.content-memory-date.oneDate{
+    position: relative;
+    right:0.5rem;
+    bottom:-1rem;
+}
+.content-memory-title.two{
+    position: relative;
+    top:-2.4rem;
+    left:1rem;
+    font-size: 2.8rem;
+}
+.content-memory-date.twoDate{
+    position: relative;
+    top:-2rem;
+    left:10rem;
+    width: 2rem;
+    letter-spacing:-0rem;
+    text-align: left;
+    writing-mode: horizontal-tb;
+    /* font-size: 2.8rem; */
+}
+.content-memory-title.three{
+    position: relative;
+    top:-2.8rem;
+    left:-4.5rem;
+    font-size: 3.8rem;
+}
+.content-memory-date.threeDate{
+    position: relative;
+    top:-2.6rem;
+    left:6rem;
+}
+.wraper-meomory-2{
+    border-left:1px solid #dcdadd;
+    width:6rem;
+    height: 7.5rem;
+    position: relative;
+    left:8.4rem;
+    top:-10.9rem;
+    overflow: hidden;
+}
+.content-memory-title.four{
+    position: relative;
+    left:-2.4rem;
+    top:2.5rem;
+    font-size: 4rem;
+}
+.content-memory-date.fourDate{
+    position: relative;
+    left:10.5rem;
+    top:-11.8rem;
+}
+.heng1{
+    position: absolute;
+    width: 4rem;
+    /* height: 1rem; */
+    border-top:1px solid #dcdadd;
+    /* background-color:red; */
+    top:16rem;
+    right: 6rem;
+}
+.heng2{
+    position: absolute;
+    width: 8rem;
+    /* height: 1rem; */
+    border-top:1px solid #dcdadd;
+    /* background-color:red; */
+    top:9rem;
+    left: 8.5rem;
+}
+.shu{
+    position: absolute;
+   height: 15rem;
+   border-right:1px solid #dcdadd;
+   top:5rem;
+left: 13.9rem;
+}
+.content-memory-header{
+    position: absolute;
+    writing-mode: vertical-lr;
+    color: #c8d4c6;
+    font-size: 1.6rem;
+    right:1.2rem;
+    top:1.2rem;
+}
+.tree{
+    position: absolute;
+    bottom:0;
+    left:2rem;
+    width: 16rem;
+}

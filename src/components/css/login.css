@@ -1,0 +1,90 @@
+.wraper {
+    width:100%;
+    height:100%;
+    background-color:#fcf9e8;
+    padding:0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+.title {
+    color: #ccbbad;
+}
+.titleText{
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.titleText span{
+   text-align: center;
+}
+.ri{
+    position: relative;
+    top:6rem;
+    opacity: 0.5;
+}
+.ji{
+    position: relative;
+    top:0rem;
+}
+.loginInput{
+    /* margin:0 auto; */
+    position: relative;
+    top:6.5rem;
+    /* display: flex;
+    justify-content: center;
+    flex-direction:column; */
+}
+.loginInput input{
+    color: #929390;
+    display: inline-block;
+    width: 70%;
+    height:3rem;
+    background-color: #f3f0df;
+    border-radius: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 1.5rem;
+    /* box-shadow: 0px 1px 1px #d9d5be; */
+}
+.circle{
+    width: 2.2rem;
+    height: 2.2rem;
+    background-color: #92d2a0;
+    border-radius: 50%;
+    position: absolute;
+    right: 2.9rem;
+    top:0.4rem;
+    color: #ddf2e2;
+    font-size:1.4rem;
+    /* box-shadow: 0px 1px 1px #6fad7c; */
+}
+.circle:hover{
+    background-color: #8dc39b;
+}
+.circle span{
+    position: relative;
+    top:0.2rem;
+}
+.loginInput input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {   
+    /* WebKit browsers */   
+    color: #e0e0df;  
+}   
+.loginInput input::-moz-placeholder, textarea:-moz-placeholder {   
+/* Mozilla Firefox 4 to 18 */   
+    color: #e0e0df;     
+}   
+.loginInput input::-moz-placeholder, textarea::-moz-placeholder {   
+    /* Mozilla Firefox 19+ */   
+    color: #e0e0df;    
+}   
+.loginInput input:-ms-input-placeholder, textarea:-ms-input-placeholder {   
+    /* Internet Explorer 10+ */   
+    color: #e0e0df;    
+}
+.reBackPW{
+    color: #c5c4c1;
+    position: absolute;
+    bottom:2.5rem;
+    transform: translateX(-50%);
+}

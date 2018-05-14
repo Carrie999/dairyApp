@@ -1,0 +1,118 @@
+.wraper-write {
+    width:100%;
+    height:100%;
+    background-color:#f9f5e9;
+    padding:0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+.header{
+    background-color:#b2dfbe;
+    height: 3.5rem;
+    color: #fff;
+    line-height: 3.5rem;
+    font-size:1.5rem;
+}
+.content{
+    background-color:#fefef4;
+    width: 80%;
+    height:75%;
+    margin: 0 auto;
+    margin-top:2rem;
+    border-radius: 0.5rem;
+}
+.contentTop{
+    background-color: #d0e6f1;
+    width: 100%;
+    height:37%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    position: relative;
+    overflow: hidden;
+}
+.signature{
+    font-size: 1rem;
+    position: absolute;
+    left:42%;
+    top:3.7rem;
+    /* padding-top:0.2rem; */
+    /* padding-bottom:0.7rem; */
+    letter-spacing:-2px;
+    color: #fff;
+    opacity: 0.8;
+    writing-mode: vertical-lr;/*从左向右 从右向左是 writing-mode: vertical-rl;*/    
+
+}
+.signature2{
+    font-size: 1rem;
+    position: absolute;
+    left:50%;
+    top:2.4rem;
+    letter-spacing:-2px;
+    color: #fff;
+    opacity: 0.8;
+    writing-mode: vertical-lr;
+}
+.mood{
+    position: absolute;
+    left: -2rem;
+    top:-3rem;
+    color:#fff;
+    font-size:10rem;
+    opacity: 0.9;
+    transform: scale(0.8,0.85);
+}
+.contentLittleLine{
+    display: flex;
+    height: 0.2rem;
+   
+}
+.contentLittleLine div{
+    flex:1;
+}
+.contentLittleLine .one{
+    background-color: #d0e6f1;
+}
+.contentLittleLine .two{
+    background-color: #b8d3de;
+}
+.contentLittleLine .three{
+    background-color: #f4e6cb;
+}
+.contentLittleLine .four{
+   background-color: #e6cef0;
+}
+.contentLittleLine .five{
+    background-color: #96a0a2;
+ }
+ .contentDetail{
+    padding-top: 1.4rem;
+    padding-left: 2.6rem;
+    color: #7e8689;
+    line-height: 2.5rem;
+    text-align: left;
+ }
+ .bottom{
+    position: absolute;
+    bottom:1.6rem;
+    left:50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #b7bdbb;
+    font-size: 1.5rem;
+ }
+.vertical{
+    display: inline-block;
+    /* width: 1rem; */
+    height: 1.5rem;
+    margin: 0 1.4rem;
+    border-right:1px solid #e0dfdd;
+    position: relative;
+    top:0.2rem;
+}
+.flower{
+    position: absolute;
+    top:9.3rem;
+    right:0.6rem;
+    width: 8.2rem;
+}
